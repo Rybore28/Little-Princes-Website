@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Little Princes</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+        <link rel="manifest" href="ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+<style>
+
+body {
+    background-image: url("Images/paper.jpg");
+    background-color: #fbfbeb;
+}
+div {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(177, 177, 177);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    color: rgb(0, 0, 0);
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font: size 12;
+    text-decoration: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color:black;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: #888888;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+        <ul>    
+                <li><a class="dropdown">X</span></li>
+                <li class="active dropdown-content" ><a href="#home">Home</a></li>
+                <li><a href="first.html">First Experiance</a></span></li>
+                <li><a href="travel.html">Travel Guide</a></li>
+                <li><a href="serve.html">Service</a></li>
+                <li><a  href="prepare.html">Prepare For...</a></li>
+                <li><a href="dating.html">Dating Spots</a></li>
+              </ul>
+<center>
+
+<h1 class="unselectable">Little Princes Website</h1>
+<img class="unselectable" id="logo1"src="images/LittlePrinces.jpg" alt="Rybore28 Logo" style="width:300px;height:300px;" >
+
+<div class="footer">
+    <p>© Rybore28 2017</p>
+</div>
+
+
+
+
+
+</center>
+</body>
+</html>
